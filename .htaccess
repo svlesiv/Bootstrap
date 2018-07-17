@@ -1,0 +1,15 @@
+ErrorDocument 404 /error/404.html
+
+RedirectMatch 301 ^/$ http://aicreativemind.com/index.php
+
+ExpiresActive On
+ExpiresByType text/css "access plus 1 week"
+ExpiresByType application/javascript "access plus 1 week"
+ExpiresByType text/javascript "access plus 1 week"
+ExpiresByType image/gif "access plus 1 week"
+ExpiresByType image/jpeg "access plus 1 week"
+ExpiresByType image/png "access plus 1 week"
+ExpiresByType image/svg "access plus 1 week"
+
+
+AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript image/svg+xml

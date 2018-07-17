@@ -1,0 +1,34 @@
+body {
+    font-family: 'Roboto', sans-serif; 
+    margin: 20px 3%;
+    color: #f6f5f5;
+    background-color: #eee;    
+}
+section h2 {
+    margin-bottom: 0.5em;
+    color: #222;
+}
+section p {
+    margin-top: 1em; 
+    margin-bottom: 1em;
+    color: #222;
+}
+section a:link, a:visited, a:hover, a:active{ 
+    text-decoration: none; 
+    background-color: inherit; 
+    color: inherit;}
+.gallery { 
+    background-color: #eee; }
+.gallery img { 
+    margin: 10px; 
+    }
+.gallery {     
+    float: left; 
+    width: 100%;
+}
+section{ 
+    padding-top: 2em;
+    margin-left: 1em; 
+    width: 100%;    
+    float:left;     
+}
